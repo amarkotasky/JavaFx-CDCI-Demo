@@ -1,0 +1,28 @@
+!SESSION 2018-04-13 12:06:00.579 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data /home/i-exceed.com/amar.khan/workspace/mvnproject/my-app/src -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 4 77 2018-04-13 12:07:15.818
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2018-04-13 12:07:15.818
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2018-04-13 12:07:15.818
+!MESSAGE /home/i-exceed.com/amar.khan/workspace/mvnproject/my-app overlaps the workspace location: /home/i-exceed.com/amar.khan/workspace/mvnproject/my-app/src
+
+!ENTRY org.eclipse.core.resources 4 77 2018-04-13 12:07:52.307
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2018-04-13 12:07:52.307
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2018-04-13 12:07:52.307
+!MESSAGE /home/i-exceed.com/amar.khan/workspace/mvnproject/my-app overlaps the workspace location: /home/i-exceed.com/amar.khan/workspace/mvnproject/my-app/src
+
+!ENTRY org.eclipse.core.resources 4 77 2018-04-13 12:09:20.301
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2018-04-13 12:09:20.301
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2018-04-13 12:09:20.301
+!MESSAGE /home/i-exceed.com/amar.khan/workspace/mvnproject/my-app overlaps the workspace location: /home/i-exceed.com/amar.khan/workspace/mvnproject/my-app/src
