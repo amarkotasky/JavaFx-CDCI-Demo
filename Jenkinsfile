@@ -23,12 +23,14 @@ pipeline {
             }
         }
         stage('Deploy') {
+            steps {
             artifact {
             artifactId('Nexus-Artifacts-Upload')
             type('jar')
             classifier('debug')
             file('./my-app/target/*')
         }
+            }
         }
         stage('notify') {
             steps {
