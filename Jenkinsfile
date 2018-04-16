@@ -30,7 +30,6 @@ pipeline {
             classifier('debug')
             file('./my-app/target/*')
         }
-            }
         }
         stage('notify') {
             steps {
