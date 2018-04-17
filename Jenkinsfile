@@ -23,14 +23,10 @@ pipeline {
             }
         }
         stage('Deploy') {
-            steps {
-            artifact {
-            artifactId('Nexus-Artifacts-Upload')
-            type('jar')
-            classifier('debug')
-            file('./my-app/target/*')
-        }
-        }
+         steps {
+            mvn deploy:deploy-file -DgeneratePom=false -DrepositoryId=nexus -Durl=http://localhost:8080/nexus/content/repositories/releases -DpomFile=pom.xml -Dfile=target/*.jar
+      }
+    }
         stage('notify') {
             steps {
                 echo 'Notification....'
