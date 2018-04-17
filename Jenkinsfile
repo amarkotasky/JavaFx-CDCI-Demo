@@ -24,7 +24,7 @@ pipeline {
         }
         stage('Deploy') {
          steps {
-            mvn deploy:deploy-file -DgeneratePom=false -DrepositoryId=nexus -Durl=http://localhost:8080/nexus/content/repositories/releases -DpomFile=pom.xml -Dfile=target/*.jar
+            mvn deploy:deploy-file -DgeneratePom=false -DrepositoryId=nexus -Durl=http://localhost:8080/nexus/content/repositories/snapshots/ -DpomFile=pom.xml -Dfile=target/my-app-1.0-SNAPSHOT.jar
       }
     }
         stage('notify') {
