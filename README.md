@@ -1,2 +1,2 @@
 # JavaFx-CDCI-Demo
-## Testing CD-CI
+## Testing CD-CIs
